@@ -1,67 +1,34 @@
-💰 Smart Expense Tracker (Java Swing Project)
+💰 Smart Expense Tracker
 
-A simple desktop-based Expense Management Application built using Java Swing.
-This project demonstrates GUI development, event handling, and file handling in Java.
+
+A simple desktop-based Expense Management System built using Java Swing.
+It allows users to add, delete, filter, and export daily expenses with automatic total calculation and file-based data storage.
+
 
 🚀 Features
 
-Add daily expenses (Date, Amount, Category)
 
-Delete selected expense
+Add & delete expenses
 
-Auto calculate total expenses
+Category-wise filtering
 
-Filter expenses by category
+Monthly expense report
 
-Generate monthly expense report
+Export to CSV
 
-Export data to CSV file
+Dark mode toggle
 
-Dark Mode toggle
+Auto-save using file handling
 
-Automatic data saving using file handling
+
 
 🛠 Tech Stack
 
-Java
+Java, Swing, AWT, JTable, File Handling
 
-Java Swing
 
-AWT
 
-JTable & DefaultTableModel
-
-File Handling (BufferedReader, PrintWriter)
-
-📂 How to Run
-
-Compile the program:
+▶ Run
 
 javac SmartExpenseTracker.java
-
-Run the program:
-
 java SmartExpenseTracker
-📁 Files Generated
-
-expenses.txt → Stores all expense records
-
-ExpenseReport.csv → Generated when exporting report
-
-📌 Learning Objectives
-
-This project helped in understanding:
-
-GUI development using Swing
-
-Event-driven programming
-
-File handling in Java
-
-JTable and TableModel usage
-
-Basic data filtering logic
-
-👨‍💻 Author
-
-Abhishek Patel
